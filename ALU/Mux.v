@@ -24,7 +24,7 @@ module Mux(
     Or (a = out1, b = out2, out = out);
 */
 
-wire 
+wire _out, a_out, b_out;
 
 Not _Not(sel, _out);
 
